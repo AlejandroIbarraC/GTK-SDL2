@@ -163,7 +163,7 @@ static gboolean idle(void *ud) {
         IMG_Init(IMG_INIT_PNG);
 
         // Load images
-        background = loadImage("../img/bg.png", sdlRenderer);
+        background = loadImage("img/bg.png", sdlRenderer);
 
         backgroundRect = (SDL_Rect){0, 0, sdl_width, height};
 
